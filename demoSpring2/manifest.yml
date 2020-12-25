@@ -5,4 +5,4 @@ applications:
   timeout: 300
   host: demoAppVishal2
   random-route: true
-  path: ./target/demoSpring2-0.0.1-SNAPSHOT.war
+  path: demoSpring2/target/demoSpring2-0.0.1-SNAPSHOT.war
