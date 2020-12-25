@@ -1,10 +1,8 @@
 applications:
-- name: demoAppvishal2
+- name: demoAppVishal2
   buildpack: sap_java_buildpack
   memory: 1024M
-  timeout: 100
+  timeout: 300
+  host: demoAppVishal2
   random-route: true
   path: ./target/demoSpring2-0.0.1-SNAPSHOT.war
-  env:
-    TARGET_RUNTIME: tomee7
-  #target:
